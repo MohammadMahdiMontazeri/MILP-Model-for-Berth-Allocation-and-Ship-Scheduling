@@ -29,7 +29,7 @@ The project aims to:
 
 ---
 
-## ⚙️ Model & Methodology
+## Model & Methodology
 - The problem is formulated as a **Mixed Integer Linear Program (MILP)**.  
 - The complete mathematical formulation is available here: **model/model.pdf**.  
 - Implementations are provided in:
