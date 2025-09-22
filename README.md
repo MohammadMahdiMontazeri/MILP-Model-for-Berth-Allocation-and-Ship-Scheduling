@@ -48,6 +48,9 @@ Additionally, **sensitivity analysis** is performed on parameters such as:
 ## 📂 Repository Structure
 ```plaintext
 .
+├── project-description/
+│   ├── initial-project-definition.pdf               # Original project description provided by the instructor
+│   └── amendments.pdf                               # Amendment document outlining the corrections and updates to the project definition
 ├── data/
 │   └── Parameters.xlsx       # Problem parameters
 ├── model/
