@@ -4,7 +4,7 @@ This repository contains the implementation of a **Mixed Integer Linear Programm
 
 ---
 
-## 📌 Problem Overview
+## Problem Overview
 In a container port, several ships arrive and need to be allocated to available berths for unloading.  
 Each berth has:
 - A **capacity limit** for handling containers.  
@@ -21,7 +21,7 @@ The challenge is to **assign ships to berths and schedule unloading times** whil
 
 ---
 
-## 🎯 Objective
+## Objective
 The project aims to:  
 - Minimize the **total waiting cost** of ships, which depends on waiting duration and priority.  
 - Minimize the **cost of additional capacity usage** in berths.  
@@ -45,7 +45,7 @@ Additionally, **sensitivity analysis** is performed on parameters such as:
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 ```plaintext
 .
 ├── project-description/
@@ -68,7 +68,7 @@ Additionally, **sensitivity analysis** is performed on parameters such as:
 
 ---
 
-## 📊 Input Parameters
+## Input Parameters
 The parameters are stored in **data/Parameters.xlsx**. Examples:
 
 | Parameter | Description |
@@ -83,7 +83,7 @@ The parameters are stored in **data/Parameters.xlsx**. Examples:
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### 1. Run with Python (Pyomo)
 Use the Pyomo notebook in `python/pyomo_notebook.ipynb`.  
@@ -117,7 +117,7 @@ Outputs and reports are stored in:
 
 ---
 
-## 📈 Sensitivity Analysis
+## Sensitivity Analysis
 Sensitivity analysis is performed on selected parameters to study their effect on:
 - The **objective function value** (total cost).  
 - **Ship waiting times** and **berth utilization**.  
@@ -126,13 +126,13 @@ Results and plots are included in reports and outputs folders.
 
 ---
 
-## 📚 Tools & Libraries
+## Tools & Libraries
 - **Python:** Pyomo, Gurobipy, Pandas, Matplotlib, openpyxl  
 - **Solvers:** GLPK / CBC / Gurobi (if available)  
 - **GAMS:** Alternative implementation and validation  
 
 ---
 
-## 👤 Author
+## Author
 Developed by **MohammadMahdi Montazeri Hedesh**  
 as part of the *Operations Research II* course, 2024–2025.
